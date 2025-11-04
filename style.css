@@ -135,7 +135,7 @@ iframe {
         padding: 15px; /* Reduz padding em telas menores */
     }
     iframe {
-        width: 90vw; /* Aumenta largura do iframe para 90% em telas menores */
+        width: 100vw; /* Aumenta largura do iframe para 90% em telas menores */
         height: 60vh; /* Reduz altura do iframe para 60% em telas menores */
     }
     .planilha-container {
@@ -160,6 +160,7 @@ iframe {
 }
 
 }
+
 
 
 
