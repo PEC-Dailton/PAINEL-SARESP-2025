@@ -20,10 +20,12 @@ body {
         footer a:hover {
             text-decoration: underline;
         }
+        
         @media (max-width: 600px) {
             footer {
                 padding: 10px;
             }
+        
 footer p {
     margin: 0;                /* Remove margens padrão do parágrafo */
 }
@@ -83,11 +85,12 @@ head{
 }
 
 iframe {
-    width: 48vw; /* Ajuste a largura do iframe */
-    height: 80vh; /* Ajuste a altura do iframe */
+    width: 50vw; /* Ajuste a largura do iframe */
+    height: 100vh; /* Ajuste a altura do iframe */
     border: none;
     scroll-behavior: smooth; /* Habilita rolagem suave */
     background-color: #000f0f; /* Cor de fundo do iframe */
+
 }
 
 /*******************************************************************************************************
@@ -132,15 +135,23 @@ iframe {
         padding: 8px 16px; /* Reduz padding em telas menores */
     }
     .content {
-        padding: 15px; /* Reduz padding em telas menores */
+        padding: 20px; /* Reduz padding em telas menores */
     }
     iframe {
-        width: 100vw; /* Aumenta largura do iframe para 90% em telas menores */
-        height: 60vh; /* Reduz altura do iframe para 60% em telas menores */
+        width: 200vw; /* Aumenta largura do iframe para 90% em telas menores */
+        height: 40vh; /* Reduz altura do iframe para 60% em telas menores */
     }
     .planilha-container {
-        height: 70vh; /* Ajusta altura do contêiner para 70% em telas menores */
+        height: 100vh; /* Ajusta altura do contêiner para 70% em telas menores */
     }
+    .ano, .turma {
+   width: 95vw; /* Aumenta largura do iframe para 95% em telas muito pequenas */
+        height: 50vh; /* Reduz altura do iframe para 50% em telas muito pequenas */
+}
+    .tab {
+     width: 95vw; /* Aumenta largura do iframe para 95% em telas muito pequenas */
+        height: 50vh; /* Reduz altura do iframe para 50% em telas muito pequenas */
+}
 }
 
 @media (max-width: 480px) {
@@ -157,9 +168,17 @@ iframe {
     .planilha-container {
         height: 60vh; /* Ajusta altura do contêiner para 60% em telas muito pequenas */
     }
+
+    .ano, .turma {
+   width: 95vw; /* Aumenta largura do iframe para 95% em telas muito pequenas */
+        height: 50vh; /* Reduz altura do iframe para 50% em telas muito pequenas */
+}
+    .tab {
+     width: 95vw; /* Aumenta largura do iframe para 95% em telas muito pequenas */
+        height: 50vh; /* Reduz altura do iframe para 50% em telas muito pequenas */
 }
 
-}
+}}
 
 
 
